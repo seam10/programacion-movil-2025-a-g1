@@ -1,2 +1,0 @@
-git: https://github.com/seam10/programacion-movil-2025-a-g1.git
-figma: https://www.figma.com/design/UUAMf5R1qG9QlHAEd8nWmJ/PROYECTO_PARCIAL?node-id=0-1&m=dev&t=zdYPK3bMjldQQe3e-1
