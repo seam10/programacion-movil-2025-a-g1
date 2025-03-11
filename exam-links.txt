@@ -1,3 +1,0 @@
-TRELLO: https://trello.com/invite/b/67c66182acfaf4928f0b8b36/ATTI1576b1ea4faa36130b0ec5a864c08d5141C3E28E/parcialprogramacion
-FIGMA: https://www.figma.com/design/7Is01EJ8oHSEeBJacepgmG/TALLER?node-id=3-171&t=IPQ3vhxl8QF15btJ-1
-GIT: https://github.com/seam10/programacion-movil-2025-a-g1.git
