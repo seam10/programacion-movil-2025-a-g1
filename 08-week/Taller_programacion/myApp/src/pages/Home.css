@@ -1,0 +1,31 @@
+/* En tu Home.css */
+.form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 20px;
+  }
+  
+  .form-item {
+    margin-bottom: 1.5rem;
+    --background: #3d2fa2;
+    --border-radius: 8px;
+    --padding-start: 12px;
+    --padding-end: 12px;
+  }
+  
+  .submit-button {
+    margin-top: 2rem;
+    --border-radius: 10px;
+    --padding-top: 1rem;
+    --padding-bottom: 1rem;
+    font-size: 1.1em;
+  }
+  
+  ion-label {
+    color: #666;
+    font-weight: 500;
+  }
+  
+  ion-select::part(icon) {
+    color: var(--ion-color-primary);
+  }
