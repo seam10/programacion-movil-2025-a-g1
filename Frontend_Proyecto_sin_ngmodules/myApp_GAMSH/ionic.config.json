@@ -1,0 +1,7 @@
+{
+  "name": "myApp_GAMSH",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

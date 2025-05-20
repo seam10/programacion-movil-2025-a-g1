@@ -1,0 +1,77 @@
+/* Espacio.css */
+
+/* Fondo y padding general */
+.espacio-content {
+    --background: #f9fafb;
+    padding-bottom: 60px; /* deja espacio para el footer */
+  }
+  
+  /* Card principal */
+  .cliente-card {
+    margin: 16px;
+    border-radius: 16px;
+    --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Título del card */
+  .cliente-card-title {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 8px;
+  }
+  
+  /* Subtítulo debajo del título */
+  .subtitle {
+    margin: 12px 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666;
+  }
+  
+  /* Grid de botones (espacios) */
+  .espacio-btn {
+    height: 64px;               /* más pequeño */
+    border-radius: 8px;         /* bordes suaves */
+    --padding-start: 4px;
+    --padding-end: 4px;
+    font-size: 0.75rem;         /* texto más pequeño */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: normal;        /* permitir salto de línea */
+    text-align: center;
+    line-height: 1.1;           /* un poco más compactado */
+  }
+  
+  /* Texto dentro de cada botón */
+  .espacio-text {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  /* Botón “Actualizar” */
+  .actualizar-btn {
+    margin: 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+  
+  /* Asegura que el Grid se vea uniformado */
+  ion-grid {
+    --ion-grid-padding: 0;
+  }
+  
+  ion-col {
+    padding: 4px; /* espacio entre botones */
+  }
+  
+  /* Footer spacing para tu componente de botones */
+  ion-footer {
+    height: auto;
+  }
+  

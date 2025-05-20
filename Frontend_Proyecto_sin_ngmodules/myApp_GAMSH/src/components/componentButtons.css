@@ -1,0 +1,41 @@
+.crud-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  padding-bottom: 0; /* sin solaparse */
+}
+
+.btn {
+  --border-radius: 8px;
+  --padding-start: 10px;
+  --padding-end: 10px;
+  --box-shadow: none;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  height: 36px;
+}
+
+/* Colores personalizados */
+.btn.home {
+  --background: #007bff;
+  --color: white;
+}
+
+.btn.register {
+  --background: #015f77;
+  --color: white;
+}
+
+.btn.tariff {
+  --background: #8a2be2;
+  --color: white;
+}
+
+.btn.exit {
+  --background: #28a745;
+  --color: white;
+}
