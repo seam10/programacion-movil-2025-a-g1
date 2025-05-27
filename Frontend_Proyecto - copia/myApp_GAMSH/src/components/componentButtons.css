@@ -1,0 +1,61 @@
+.crud-buttons {
+  /* Convierte el contenedor en un flexbox para alinear sus hijos */
+  display: flex;
+  /* Centra horizontalmente los elementos dentro del contenedor */
+  justify-content: center;
+  /* Espacio fijo de 8px entre cada elemento hijo */
+  gap: 8px;
+  /* Permite que los elementos flex se envuelvan a la siguiente línea si no caben */
+  flex-wrap: wrap;
+  /* Añade 12px de espacio interno en la parte superior */
+  padding-top: 12px;
+  /* Elimina el espacio interno en la parte inferior para evitar solapamientos */
+  padding-bottom: 0;
+}
+
+.btn {
+  /* Radio de borde de 8px para esquinas redondeadas */
+  --border-radius: 8px;
+  /* Espacio interno al inicio de 10px (propiedad custom para Ionic) */
+  --padding-start: 10px;
+  /* Espacio interno al final de 10px (propiedad custom para Ionic) */
+  --padding-end: 10px;
+  /* Sin sombra en el botón */
+  --box-shadow: none;
+  /* Texto en negrita semibold */
+  font-weight: 600;
+  /* Tamaño de fuente de 0.75rem para texto pequeño */
+  font-size: 0.75rem;
+  /* Convierte el texto a mayúsculas */
+  text-transform: uppercase;
+  /* Espacio de 0.4px entre cada letra para mejor legibilidad */
+  letter-spacing: 0.4px;
+  /* Altura fija de 36px para todos los botones */
+  height: 36px;
+}
+
+/* Cada clase .btn.<tipo> define colores específicos usando variables CSS */
+
+/* Botón principal ("home") con fondo azul y texto blanco */
+.btn.home {
+  --background: #007bff;
+  --color: white;
+}
+
+/* Botón de registro con fondo verde oscuro/azulado y texto blanco */
+.btn.register {
+  --background: #015f77;
+  --color: white;
+}
+
+/* Botón de tarifa con fondo púrpura y texto blanco */
+.btn.tariff {
+  --background: #8a2be2;
+  --color: white;
+}
+
+/* Botón de salida con fondo verde brillante y texto blanco */
+.btn.exit {
+  --background: #28a745;
+  --color: white;
+}

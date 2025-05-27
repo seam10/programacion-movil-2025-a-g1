@@ -1,0 +1,63 @@
+/* Aplica un fondo blanco a toda la página Ionic */
+ion-page {
+  --background: #ffffff;
+}
+
+/* Contenedor principal de la sección de salidas */
+.salida-content {
+  --background: #f9fafb;   /* Fondo gris muy claro */
+  padding: 16px;            /* Espacio interno de 16px alrededor */
+  padding-bottom: 80px;     /* Espacio inferior extra para el footer */
+}
+
+/* Título centrado en la sección de salidas */
+.salida-titulo {
+  margin: 16px 0;           /* Margen vertical de 16px */
+  font-size: 1.2rem;        /* Tamaño de fuente de 1.2 veces el base */
+  text-align: center;       /* Alinea el texto en el centro */
+  color: #444;              /* Color de texto gris oscuro */
+}
+
+/* Ítems dentro de la lista de salidas */
+.salida-list ion-item {
+  --background: #fff;       /* Fondo blanco para cada ítem */
+  border-radius: 8px;       /* Esquinas redondeadas de 8px */
+  margin-bottom: 8px;       /* Espacio inferior entre ítems */
+  padding: 8px 12px;        /* Espacio interno vertical de 8px y horizontal de 12px */
+}
+
+/* Tarjeta principal que envuelve información de salida */
+.salida-card {
+  margin: 16px 0;           /* Margen vertical de 16px */
+  border-radius: 16px;      /* Esquinas muy redondeadas de 16px */
+  --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);  /* Sombra suave para elevación */
+}
+
+/* Párrafos dentro de la tarjeta de salida */
+.salida-card p {
+  margin: 8px 0;            /* Margen vertical de 8px */
+  font-size: 0.95rem;       /* Tamaño de fuente ligeramente menor al base */
+}
+
+/* Estilo de cada sección de detalle de salida */
+.salida-item {
+  --background: #fff;          /* Fondo blanco */
+  --highlight-background: #e0f0ff; /* Fondo azul pálido al resaltar */
+  border-radius: 8px;          /* Esquinas suaves de 8px */
+  margin: 16px 0;              /* Margen vertical de 16px */
+  padding: 8px 12px;           /* Espacio interno de 8px vertical y 12px horizontal */
+}
+
+/* Texto que muestra el total calculado de la salida */
+.salida-total {
+  margin: 16px 0;           /* Margen vertical de 16px */
+  font-size: 1rem;          /* Tamaño de fuente estándar */
+  font-weight: 600;         /* Negrita semiligera para énfasis */
+}
+
+/* Barra de herramientas del footer con línea superior */
+.footer-toolbar {
+  --background: #ffffff;     /* Fondo blanco para el footer */
+  border-top: 1px solid #e0e0e0; /* Línea gris clara en la parte superior */
+}
+/* Estilo para el botón de "Agregar Salida" */

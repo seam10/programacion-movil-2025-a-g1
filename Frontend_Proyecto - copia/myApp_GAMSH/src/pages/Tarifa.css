@@ -1,0 +1,56 @@
+/* Fondo y padding para dejar espacio al footer */
+.tarifa-content {
+    --background: #f9fafb;     /* Define un color de fondo gris muy claro para el contenedor */
+    padding-bottom: 60px;      /* Añade 60px de espacio inferior para que no solape el footer */
+}
+
+/* Card de tarifas */
+.tarifa-card {
+    margin: 16px;                              /* Márgenes externos de 16px alrededor de la tarjeta */
+    border-radius: 16px;                       /* Esquinas redondeadas de 16px */
+    --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* Sombra suave bajo la tarjeta para dar efecto de elevación */
+}
+
+/* Título del card */
+.tarifa-card-title {
+    text-align: left;       /* Alinea el texto del título a la izquierda */
+    font-size: 1.3rem;      /* Tamaño de fuente de 1.3 veces el tamaño base */
+    font-weight: 700;       /* Peso de fuente negrita (700) para destacar el título */
+    color: #333;            /* Color de texto gris oscuro para buena legibilidad */
+    margin-bottom: 8px;     /* Espacio inferior de 8px antes del siguiente elemento */
+}
+
+/* Items (selects, inputs) */
+.tarifa-item {
+    --background: #fff;          /* Fondo blanco para cada ítem dentro de la tarjeta */
+    --highlight-background: #e0f0ff; /* Color de fondo cuando el ítem está resaltado o enfocado */
+    border-radius: 8px;          /* Esquinas suavemente redondeadas de 8px */
+    margin-top: 12px;            /* Espacio superior de 12px entre cada ítem */
+    padding: 4px 8px;            /* Espacio interno: 4px arriba/abajo y 8px izquierda/derecha */
+}
+
+/* Botón de guardar tarifa */
+.tarifa-guardar {
+    margin-top: 20px;    /* Espacio superior de 20px para separarlo de los ítems */
+    border-radius: 8px;  /* Esquinas redondeadas de 8px para el botón */
+    font-size: 0.95rem;  /* Tamaño de fuente ligeramente menor al base para el texto del botón */
+}
+
+/* Lista de tarifas */
+.tarifa-list {
+    margin: 0 16px 80px; /* Márgenes: 0 arriba, 16px laterales, 80px inferior para espacio al footer */
+}
+
+/* Cada fila de tarifa */
+.tarifa-info {
+    font-size: 0.95rem;        /* Tamaño de fuente ligeramente menor para el texto de info */
+    flex: 1;                   /* Expande el contenedor flex para ocupar el espacio disponible */
+    white-space: nowrap;       /* Evita saltos de línea dentro del texto */
+    overflow: hidden;          /* Oculta el contenido que desborda el ancho del contenedor */
+    text-overflow: ellipsis;   /* Muestra "..." cuando el texto es demasiado largo */
+}
+
+/* Ajusta el tamaño de los iconos dentro de botones en la lista de tarifas */
+.tarifa-list .ion-button .ion-icon {
+    font-size: 1.2rem;  /* Aumenta el tamaño de los íconos a 1.2 veces el tamaño base */
+}
